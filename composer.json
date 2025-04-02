@@ -22,12 +22,11 @@
     "extra": {
         "laravel": {
             "providers": [
-              "Apoliceplano\\Providers\\ApolicePlanoProvider"
+                "Apoliceplano\\Providers\\ApolicePlanoProvider"
             ]
         }
     },
-    
     "version": "1.0.0",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
