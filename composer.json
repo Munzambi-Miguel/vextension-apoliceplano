@@ -1,0 +1,30 @@
+{
+    "name": "vsaude/apoliceplano",
+    "description": "Parte da aplicação responsavel para gerir apolice relacionado com os planos",
+    "autoload": {
+        "psr-4": {
+            "Apoliceplano\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Munzambi-Miguel",
+            "email": "munzambi.miguel@gmail.com"
+        },
+        {
+            "name": "Alvaro-Carmo",
+            "email": "alvaro.carmo@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "Apoliceplano\\Providers\\ApolicePlanoProvider"
+            ]
+        }
+    },
+    "version": "1.0.0"
+}
