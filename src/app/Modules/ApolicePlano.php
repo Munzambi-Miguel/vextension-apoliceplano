@@ -1,6 +1,6 @@
 <?php
 
-namespace Apoliceplano\app\Modules;
+namespace Apoliceplano\App\Modules;
 
 use App\Http\API\CodeController;
 use App\Models\Empresas\Empresas;

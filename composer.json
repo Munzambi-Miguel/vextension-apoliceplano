@@ -3,7 +3,8 @@
     "description": "Parte da aplicação responsavel para gerir apolice relacionado com os planos",
     "autoload": {
         "psr-4": {
-            "Apoliceplano\\": "src/"
+            "Apoliceplano\\": "src/",
+            "Apoliceplano\\App\\": "src/app/"
         }
     },
     "authors": [

@@ -2,7 +2,7 @@
 
 namespace Apoliceplano\app\Http\Controllers;
 
-use Apoliceplano\app\Modules\MotivoCancelamento;
+use Apoliceplano\App\Modules\MotivoCancelamento;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Inertia\Inertia;

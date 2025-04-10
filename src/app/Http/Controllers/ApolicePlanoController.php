@@ -2,8 +2,8 @@
 
 namespace Apoliceplano\app\Http\Controllers;
 
-use Apoliceplano\app\Modules\ApoliceBeneficiario;
-use Apoliceplano\app\Modules\ApolicePlano;
+use Apoliceplano\App\Modules\ApoliceBeneficiario;
+use Apoliceplano\App\Modules\ApolicePlano;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StorDataRequest;
 use App\Http\Requests\Utils\ModelController;
@@ -25,7 +25,7 @@ class ApolicePlanoController extends Controller
         $screenHeight = $request->header('Screen-Height', 800);
         $itemHeight = 62;
 
-        $itemsPerPage = (int)floor($screenHeight / $itemHeight);
+        $itemsPerPage = (int) floor($screenHeight / $itemHeight);
 
         $apolicesPlano = ApolicePlano::allRelation()->paginate($itemsPerPage)->appends($request->all());
 
@@ -46,7 +46,7 @@ class ApolicePlanoController extends Controller
         ]);
     }
 
-  
+
     public function addBenApolice(StorDataRequest $request): void
     {
 

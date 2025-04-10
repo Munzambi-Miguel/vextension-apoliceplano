@@ -11,10 +11,10 @@ use Inertia\Inertia;
 
 // Rotas para o módulo ApolicePlano
 Route::prefix('apoliceplano')->group(function () {
-    Route::get('index', [\Apoliceplano\app\Http\Controllers\ApolicePlanoController::class, 'index'])->name('ApolicePlano.index');
-    Route::post('store', [\Apoliceplano\app\Http\Controllers\ApolicePlanoController::class, 'store'])->name('ApolicePlano.store');
-    Route::post('setBen', [\Apoliceplano\app\Http\Controllers\ApolicePlanoController::class, 'addBenApolice'])->name('ApolicePlano.set-ben');
-    Route::post('setRule', [\Apoliceplano\app\Http\Controllers\ApolicePlanoController::class, 'newRule'])->name('ApolicePlano.set-rule');
+    Route::get('index', [\Apoliceplano\App\Http\Controllers\ApolicePlanoController::class, 'index'])->name('ApolicePlano.index');
+    Route::post('store', [\Apoliceplano\App\Http\Controllers\ApolicePlanoController::class, 'store'])->name('ApolicePlano.store');
+    Route::post('setBen', [\Apoliceplano\App\Http\Controllers\ApolicePlanoController::class, 'addBenApolice'])->name('ApolicePlano.set-ben');
+    Route::post('setRule', [\Apoliceplano\App\Http\Controllers\ApolicePlanoController::class, 'newRule'])->name('ApolicePlano.set-rule');
 
 })->middleware(['auth', 'verified']);
 

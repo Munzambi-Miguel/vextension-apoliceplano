@@ -1,6 +1,6 @@
 <?php
 
-namespace Apoliceplano\app\Modules;
+namespace Apoliceplano\App\Modules;
 
 use App\Models\Beneficiario\Beneficiario;
 use App\Models\Trait\Search;
