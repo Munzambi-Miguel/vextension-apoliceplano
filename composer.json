@@ -4,7 +4,7 @@
     "autoload": {
         "psr-4": {
             "Apoliceplano\\": "src/",
-            "Apoliceplano\\App\\": "src/app/"
+            "Apoliceplano\\App": "src/app/"
         }
     },
     "authors": [
